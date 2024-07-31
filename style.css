@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+    display: flex;
+    align-items: center;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+    transition: color 0.8s;
+}
+
+.link-menu:hover {
+    color: #665AE1;
+}
+
+.log-in-button {
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #515151;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.explore-button {
+    background-color: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .link-menu {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .log-in-button {
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    section {
+        margin: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .explore-button {
+        width: auto;
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+}
